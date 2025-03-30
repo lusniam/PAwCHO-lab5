@@ -1,0 +1,5 @@
+Polecenie wykorzystane do zbudowania obrazu:
+docker build --build-arg VERSION=1.2.3 -t localhost:5000/lab5 .
+
+Polecenie wykorzystane do uruchomienia kontenera:
+docker run -d -p 8080:80 localhost:5000/lab5
